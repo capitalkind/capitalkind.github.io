@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+#overlay{
+  position: absolute;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+body {
+  background: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  /*font-size: 2em;*/
+  /*position: absolute;*/
+}
+
+body{
+  transition: background-color 3s;
+}
+
+section{
+  transition: background-color 3s;
+}
+
+p{
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: dodgerblue;
+  cursor: pointer; cursor: hand;
+}
+
+section {
+  width: 100%;
+  padding: 0 10%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: black;
+  height: 100vh;
+}
+
+.content{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.profile-section h1{
+  font-size: 40px;
+}
+
+.projects-section{
+  background-color: rgba(30,144,255,.8);
+}
+
+img{
+  width: 50%;
+  padding: .2em;
+  border-radius: .5em;
+}
+
+img:hover {
+  opacity: .9;
+}
+
+
+.contact-section{
+  background-color: rgba(255,0,0,.8);
+  /*text-shadow: .5px 1px rgba(255,255,255,.5);*/
+}
+
+.contact-section h1{
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.contact-section h2{
+  color: whitesmoke;
+}
+
+.contact-section a{
+  color: whitesmoke;
+}
+
+.contact-section a:hover{
+  color: black;
+}
+
+#static{
+  position: fixed;
+  top: 10%;
+  left: 40%;
+  margin-top: 15%;
+  margin-left: -25%;
+}
+
+.static {
+  color: whitesmoke;
+  font-size: 70px;
+  position: relative;
+  width: 1300px;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(71px, 9999px, 50px, 0);
+  }
+  5% {
+    clip: rect(57px, 9999px, 70px, 0);
+  }
+  10% {
+    clip: rect(5px, 9999px, 95px, 0);
+  }
+  15% {
+    clip: rect(33px, 9999px, 41px, 0);
+  }
+  20% {
+    clip: rect(10px, 9999px, 71px, 0);
+  }
+  25% {
+    clip: rect(84px, 9999px, 47px, 0);
+  }
+  30% {
+    clip: rect(80px, 9999px, 40px, 0);
+  }
+  35% {
+    clip: rect(12px, 9999px, 62px, 0);
+  }
+  40% {
+    clip: rect(73px, 9999px, 95px, 0);
+  }
+  45% {
+    clip: rect(70px, 9999px, 61px, 0);
+  }
+  50% {
+    clip: rect(1px, 9999px, 28px, 0);
+  }
+  55% {
+    clip: rect(11px, 9999px, 68px, 0);
+  }
+  60% {
+    clip: rect(12px, 9999px, 25px, 0);
+  }
+  65% {
+    clip: rect(99px, 9999px, 92px, 0);
+  }
+  70% {
+    clip: rect(59px, 9999px, 41px, 0);
+  }
+  75% {
+    clip: rect(62px, 9999px, 78px, 0);
+  }
+  80% {
+    clip: rect(81px, 9999px, 84px, 0);
+  }
+  85% {
+    clip: rect(96px, 9999px, 71px, 0);
+  }
+  90% {
+    clip: rect(30px, 9999px, 83px, 0);
+  }
+  95% {
+    clip: rect(28px, 9999px, 95px, 0);
+  }
+  100% {
+    clip: rect(94px, 9999px, 47px, 0);
+  }
+}
+.static:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 3px;
+  text-shadow: -2px 0 red;
+  top: 0;
+  color: whitesmoke;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(51px, 9999px, 94px, 0);
+  }
+  5% {
+    clip: rect(93px, 9999px, 11px, 0);
+  }
+  10% {
+    clip: rect(34px, 9999px, 9px, 0);
+  }
+  15% {
+    clip: rect(4px, 9999px, 39px, 0);
+  }
+  20% {
+    clip: rect(12px, 9999px, 81px, 0);
+  }
+  25% {
+    clip: rect(67px, 9999px, 79px, 0);
+  }
+  30% {
+    clip: rect(23px, 9999px, 98px, 0);
+  }
+  35% {
+    clip: rect(95px, 9999px, 90px, 0);
+  }
+  40% {
+    clip: rect(56px, 9999px, 82px, 0);
+  }
+  45% {
+    clip: rect(78px, 9999px, 55px, 0);
+  }
+  50% {
+    clip: rect(58px, 9999px, 9px, 0);
+  }
+  55% {
+    clip: rect(46px, 9999px, 61px, 0);
+  }
+  60% {
+    clip: rect(3px, 9999px, 8px, 0);
+  }
+  65% {
+    clip: rect(42px, 9999px, 48px, 0);
+  }
+  70% {
+    clip: rect(83px, 9999px, 3px, 0);
+  }
+  75% {
+    clip: rect(44px, 9999px, 77px, 0);
+  }
+  80% {
+    clip: rect(30px, 9999px, 15px, 0);
+  }
+  85% {
+    clip: rect(12px, 9999px, 45px, 0);
+  }
+  90% {
+    clip: rect(80px, 9999px, 20px, 0);
+  }
+  95% {
+    clip: rect(60px, 9999px, 63px, 0);
+  }
+  100% {
+    clip: rect(31px, 9999px, 36px, 0);
+  }
+}
+.static:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -3px;
+  text-shadow: 3px 0 dodgerblue;
+  top: 0;
+  color: whitesmoke;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 5s infinite linear alternate-reverse;
+}

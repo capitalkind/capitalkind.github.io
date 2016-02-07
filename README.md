@@ -1,0 +1,1 @@
+# capitalkind.github.io
