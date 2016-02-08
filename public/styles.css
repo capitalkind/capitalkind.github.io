@@ -64,8 +64,16 @@ section {
   background-color: rgba(30,144,255,.8);
 }
 
+#projects-div{
+  width: 100%;
+}
+
+table{
+  width: 100%;
+}
+
 img{
-  width: 50%;
+  width: 100%;
   padding: .2em;
   border-radius: .5em;
 }
@@ -73,7 +81,6 @@ img{
 img:hover {
   opacity: .9;
 }
-
 
 .contact-section{
   background-color: rgba(255,0,0,.8);
