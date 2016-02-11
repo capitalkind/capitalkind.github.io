@@ -4,7 +4,7 @@ $(function(){
 
   $('section').hide();
 
-  $('#static').on('click', function(){
+  $('.static').on('click', function(){
     $('#overlay').hide();
     $('#static').hide();
     $('section').show().fadeIn('slow');
@@ -23,6 +23,10 @@ $(function(){
     $('html, body').animate({
       scrollTop: $(".contact-section").offset().top
   }, 500);
+  });
+
+  $('a').click(function(){
+    $(this).blur();
   });
 
 });

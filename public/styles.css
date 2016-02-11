@@ -106,8 +106,24 @@ img:hover {
 
 #static{
   position: fixed;
-  top: 10%;
-  left: 40%;
+  top: 5%;
+  left: 63%;
+  margin-top: 15%;
+  margin-left: -25%;
+}
+
+#static2{
+  position: fixed;
+  top: 15%;
+  left: 65%;
+  margin-top: 15%;
+  margin-left: -25%;
+}
+
+#static3{
+  position: fixed;
+  top: 25%;
+  left: 66%;
   margin-top: 15%;
   margin-left: -25%;
 }
