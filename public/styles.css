@@ -290,3 +290,22 @@ img:hover {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 5s infinite linear alternate-reverse;
 }
+
+@media screen and (max-width: 480px){
+
+
+  #static{
+    left: 50%;
+    margin-left: -39%;
+  }
+
+  #static2{
+    left: 50%;
+    margin-left: -33%;
+  }
+
+  #static3{
+    left: 50%;
+    margin-left: -30%;
+  }
+}
