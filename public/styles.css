@@ -309,7 +309,7 @@ img:hover {
     margin-left: -30%;
   }
 
-  .profile-section h2{
-  font-size: 20px;
-}
+  #profile-content h2{
+    font-size: 15px;
+  }
 }
