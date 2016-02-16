@@ -210,7 +210,7 @@ img:hover {
   background: black;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim 2s infinite linear alternate-reverse;
+  animation: noise-anim 1.5s infinite linear alternate;
 }
 
 @keyframes noise-anim-2 {
