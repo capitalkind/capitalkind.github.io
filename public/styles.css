@@ -291,7 +291,7 @@ img:hover {
   animation: noise-anim-2 5s infinite linear alternate-reverse;
 }
 
-@media screen and (max-width: 480px){
+/*@media screen and (max-width: 480px){
 
 
   #static{
@@ -316,4 +316,4 @@ img:hover {
   table{
     width: 90vw;
   }
-}
+}*/
