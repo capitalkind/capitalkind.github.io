@@ -68,8 +68,16 @@ section {
   width: 100%;
 }
 
-table{
-  width: 100%;
+.image-list{
+  /*position: relative;*/
+  /*vertical-align: middle;*/
+  text-align: center;
+  display: inline-block;
+}
+
+.image-list img{
+  width: 30%;
+  /*height: 15em;*/
 }
 
 img{
@@ -311,5 +319,9 @@ img:hover {
 
   #profile-content h2{
     font-size: 15px;
+  }
+
+  .image-list img{
+    width: 50%;
   }
 }
