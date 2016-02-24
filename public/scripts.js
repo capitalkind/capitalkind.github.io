@@ -25,6 +25,8 @@ $(function(){
   }, 500);
   });
 
+  // $("#projects-link").animate({ top: 305 }, {duration: 1000, easing: 'easeOutBounce'});
+
   $('a').click(function(){
     $(this).blur();
   });
